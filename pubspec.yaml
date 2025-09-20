@@ -1,0 +1,14 @@
+name: RCS_Workspace
+
+environment:
+  sdk: ^3.9.0
+dependencies:
+  melos: ^7.1.1
+
+workspace:
+  - apps/my_app
+  - packages/database
+  - packages/sales_rep
+  - packages/utilities
+
+
